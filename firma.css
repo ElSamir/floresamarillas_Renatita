@@ -3,14 +3,14 @@ svg{
 }
 
 .animacion{
-stroke-dasharray: 2;
-stroke-dashoffset: 2;
+stroke-dasharray: 1.8;
+stroke-dashoffset: 1.8;
 animation: anime 5s  linear alternate infinite ;
 }
 
 .animacion2{
-    stroke-dasharray: 1;
-    stroke-dashoffset: 1;
+    stroke-dasharray: 1.5;
+    stroke-dashoffset: 1.5;
     animation: anime 6s  linear alternate infinite ;
     }
 
