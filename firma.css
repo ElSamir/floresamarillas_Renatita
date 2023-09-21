@@ -1,0 +1,25 @@
+svg{
+    width: 500 vw;
+}
+
+.animacion{
+stroke-dasharray: 2;
+stroke-dashoffset: 2;
+animation: anime 5s  linear alternate infinite ;
+}
+
+.animacion2{
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: anime 6s  linear alternate infinite ;
+    }
+
+@keyframes anime {
+ to {
+        stroke-dashoffset: 0;
+    }
+}
+
+body{
+    background-color: rgb(249, 255, 192);
+}
